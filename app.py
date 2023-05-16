@@ -6,7 +6,7 @@ app = dash.Dash(__name__)
 
 app.layout = html.Div(
   children=[
-    html.H1("Selamat Datang di Aplikasi Web Sederhan"),
+    html.H1("Selamat Datang di Aplikasi Web Sederhana"),
     dcc.Input(id="input-text", type="text", placeholder="Masukkan teks"),
     html.Button("Kirim", id="submit-button",n_clicks=0),
     html.Div(id="output")
